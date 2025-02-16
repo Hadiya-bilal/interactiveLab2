@@ -1,5 +1,5 @@
 /* General Reset */
-* {
+•⁠  ⁠{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,7 +34,7 @@
     padding: 20px;
 }
 .sidebar li i {
-    margin-right: 12px; 
+    margin-right: 12px; /* Adjust spacing as needed */
 }
 
 /* Sidebar Links */
@@ -110,7 +110,9 @@
     padding-bottom: 8px;
     width: 380px;
 }
-
+.mid2 {
+    width: 350px;
+}
 .input-box {
     border: none;
 }
@@ -123,6 +125,11 @@
     /* padding: 2px; */
     /* background: #eee; */
     border-radius: 5px;
+}
+.mid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .mainth {
@@ -157,4 +164,122 @@
 .date {
     font-size: smaller;
     padding-left: 10px;
+}
+
+/* Folders */
+.folder-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.folder {
+    background: #ddd;
+    padding-left: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.folder i {
+    font-size: 70px;
+    margin-top: 24px;
+}
+
+/* Projects */
+.project-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.project {
+    background: #ddd;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-project {
+    display: flex;
+    background: #ddd;
+    width: 240px;
+    height: 116px;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tasks {
+    background: #eee;
+    border-radius: 8px;
+}
+
+/* Tasks */
+.tasks ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.tasks li {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    background: white;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.checkbox-round {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    appearance: none; /* Hides default checkbox */
+    background-color: white;
+}
+
+/* When checked */
+.checkbox-round:checked {
+    background-color: rgb(90, 71, 197); /* Change color when checked */
+    border-color: rgb(90, 71, 197);
+}
+.checkbox-round:checked::after {
+    content: "✔"; /* Checkmark */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px;
+}
+/* The ::after in CSS is a pseudo-element that lets you add extra content inside an element without modifying the HTML. */
+
+.tag {
+    padding: 7px;
+    border-radius: 11px;
+    font-size: 12px;
+    width: max-content;
+    color: #ddd;
+    margin-top: 10px;
+    /* margin-left: 5px; */
+}
+
+.design {
+    background: rgb(238, 14, 14);
+}
+.marketing {
+    background: #fa0;
+}
+.dev {
+    background: #0af;
 }
