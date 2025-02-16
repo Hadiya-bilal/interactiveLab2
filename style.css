@@ -110,9 +110,7 @@
     padding-bottom: 8px;
     width: 380px;
 }
-.mid2 {
-    width: 350px;
-}
+
 .input-box {
     border: none;
 }
@@ -159,69 +157,4 @@
 .date {
     font-size: smaller;
     padding-left: 10px;
-}
-
-.tasks {
-    background: #eee;
-    border-radius: 8px;
-}
-
-/* Tasks */
-.tasks ul {
-    list-style: none;
-    margin-top: 10px;
-    padding: 20px;
-}
-
-.tasks li {
-    display: flex;
-    align-items: start;
-    gap: 10px;
-    padding: 10px;
-    background: white;
-    margin-bottom: 5px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-}
-
-.checkbox-round {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid #ddd;
-    cursor: pointer;
-    appearance: none; 
-    background-color: white;
-}
-
-/* When checked */
-.checkbox-round:checked {
-    background-color: rgb(90, 71, 197); 
-    border-color: rgb(90, 71, 197);
-}
-.checkbox-round:checked::after {
-    content: "✔"; /* Checkmark */
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 2px;
-}
-
-.tag {
-    padding: 7px;
-    border-radius: 11px;
-    font-size: 12px;
-    width: max-content;
-    color: #ddd;
-    margin-top: 10px;
-    /* margin-left: 5px; */
-}
-
-.design {
-    background: rgb(238, 14, 14);
-}
-.marketing {
-    background: #fa0;
-}
-.dev {
-    background: #0af;
 }
