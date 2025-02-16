@@ -166,7 +166,7 @@
     padding-left: 10px;
 }
 
-/* Folders  */
+/* Folders */
 .folder-container {
     display: flex;
     gap: 25px;
@@ -189,6 +189,33 @@
 .folder i {
     font-size: 70px;
     margin-top: 24px;
+}
+
+/* Projects */
+.project-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.project {
+    background: #ddd;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-project {
+    display: flex;
+    background: #ddd;
+    width: 240px;
+    height: 116px;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .tasks {
